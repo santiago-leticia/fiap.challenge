@@ -110,6 +110,9 @@ nav{
     margin-right: auto;
 }
 nav img{
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
     width: 5vw;
     height: 10%;
     border: 1px solid;
