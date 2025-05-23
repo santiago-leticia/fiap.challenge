@@ -34,7 +34,7 @@ img{
 }
 figure .im2{
     height: 20vh;
-    width: 5vw;
+    width: 25vw;
     align-items: center;
     display:block;
 }
@@ -68,14 +68,14 @@ header h1{
     color: white;
 }
 .hea2 img{
-    height: 45vh;
-    width: 30vw;
+    height: 20vh;
+    width: 20vw;
     align-items: center;
     display:block;
 }
 header .botao2{
-    width: 200px;
-    height: 40px;
+    width: 20vw;
+    height: 10vh;
     background-color: #0072F5;
     color: rgb(255, 255, 255);
     margin-left: auto;
