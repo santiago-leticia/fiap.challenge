@@ -57,26 +57,6 @@ section{
     border: 1px solid;
     border-color:#9F9F9F  ;
 }
-.tipo{
-    width: 20%;
-    min-height: 5vh;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin: 0 auto; 
-    border: 2px solid;
-    border-color:#22BAA1;
-    background-color: #0D99FF;
-}
-.tipo p{
-    text-align:center;
-    font-size: 15px;
-    font-family: "Comic Relief", system-ui;
-    font-weight: 30;
-    font-style: normal;
-    color: #ffffff;
-}
 section img{
     width: 10vw;
     height: 50%;
@@ -159,11 +139,85 @@ p{
     font-style: normal;
     color: #7e7e7e;
 }
-.embaixo img{
+main button{
+    align-items: center;
+    margin: auto;
+    display: block;}
+    
+
+button{
+    width: 15vw;
+    height: 5vh;
+    background-color:#29e0c2;
+    color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
-    justify-content:space-between;
+    text-align: center;
+    flex: auto;
+    border: inherit;    
+    }
+a{ 
+    text-decoration: none;
+    color: white;}  
+
+.main2{
+    width: 90%;
+    min-height: 2px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+}
+main h4{
+    font-size: 15px;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 50vw bold;
+    font-style: normal;
+    text-align: center;
+    color: #7c7c7c;
+}
+form{
+    background-color: white;
+}
+form .p{
     display: block;
-    height: 10vh;
-    width: 30vw;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:#29e0c2;
+    border: none;
+    width: 20vw;
+    height: 40px;
+    font-weight: bolder;
+}
+.p{
+    color: white;
+    font-size: 15px;
+}
+main button{
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+div{
+    display: flex;
+    background-color: white;
+}
+div label{
+    display: inline-block;
+    width:10px;
+    background-color: white;
+}
+div input{
+    padding: 10px;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    background-color: white;
+    border: 1px solid;
+    border-color: #d3d3d3;
 }
