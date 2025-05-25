@@ -132,7 +132,7 @@ main h3{
     color: #7c7c7c;
 }
 main h4{
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Comic Relief", system-ui;
     font-weight: 50vw bold;
     font-style: normal;
@@ -158,7 +158,7 @@ main aside{
 }
 p{
     text-align:center;
-    font-size: 15px;
+    font-size: 10px;
     font-family: "Comic Relief", system-ui;
     font-weight: 30;
     font-style: normal;
