@@ -54,23 +54,27 @@
             <button type="button">Drajuda</button><br>
             <h4>Se sua pergunta é especifica, falar com chatbot ou mandei um texto com seu email</h4>
             <aside></aside><br>
-            <form name="pergunta" action="pergunta" method="get">
+            <form name="pergunta" action="pergunta" method="get" id="meuFormulario">
                 <div class="campo">
-                    <label for="cpergunta"></label>
-                    <input type="text" id="cpergunta" name="pergunta" placeholder="Qual é sua duvidas?"><br>
+                    <label for="ctexto"></label>
+                    <input type="text" name="texto" id="ctexto" placeholder="Qual é sua duvidas?" required>
                 </div><br>
                 <div class="campo">
                     <label for="cemail"></label>
-                    <input type="text" name="email" id="email" placeholder="Qual é o seu email?">
+                    <input type="email" name="email" id="email"placeholder="Qual é o seu email?" required>
+                    <span id="avisoNome" class="mensagem-erro"></span>
                 </div><br>
-                <button id="enviar" type="button">Enviar</button>
+                <button type="submit">Enviar</button><br>
+                <button id="enviar" type="button" onclick="mudarTexto()">Salvar a duvida</button>
             </form><br>
+            <main class="main3">
+            <h4 id="titulo">pergunta feita</h4>
+            </main>
         </main>
         
     </main>
    
     <nav>
-
         <a href=""><img src="img/logo/chatbot.jpg" alt="chatbot" title="Quer ajudar?"></a>
     </nav>
 </body>

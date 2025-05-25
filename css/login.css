@@ -96,3 +96,11 @@ button{
     font-weight: bolder;
     text-align: center;
 }
+.form-content.error input{
+    border-color: red;
+
+}
+.form-content.error a{
+    color: red;
+    visibility: visible;
+}

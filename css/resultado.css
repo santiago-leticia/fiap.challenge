@@ -139,37 +139,13 @@ p{
     font-style: normal;
     color: #7e7e7e;
 }
-.main2{
-    flex-grow: 1;
+main img{
     display: flex;
-    flex-wrap: wrap;
-}
-main section{
-    width: 50%;
-    min-height: 30vh;
-    justify-content:center;
-    display: block;
-    align-items: center;
-    margin: 0 auto; 
-    border: 1px solid;
-    border-color:#0D99FF}
-
-section button{
-    align-items: center;
-    margin: auto;
-    display: block;}
-    
-
-button{
-    width: 15vw;
-    height: 5vh;
-    background-color:#2aa6ff;
-    color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    flex: auto;
-    border: inherit;    
-    }
-a{ text-decoration: none;
-    color: white;}  
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    border: 2px solid;
+    border-color: #0D99FF;
+}

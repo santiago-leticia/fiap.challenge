@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/login.css" de>
+    <script src="js/login.js" defer></script>
     <title>login</title>
 </head>
 <body><br>
@@ -12,18 +13,20 @@
             <img src="img/logo.png" alt="">
             <h6>Portal do Paciente</h6>
             <h2>Acessar conta</h2><br>
-        <form name="cadastro" action="cadastro" method="get">
+        <form name="cadastro" action="cadastro" id="form" method="get">
             <div class="campo">
                 <label for="cemail"></label>
-                <input type="text" id="cemail" name="email" placeholder="Digite seu CPF"><br>
+                <input type="email" id="cemail" name="email" placeholder="Digite seu CPF" required><br>
+                <a></a>
             </div><br>
             <div class="campo">
                 <label for="csenha"></label>
-                <input type="password" name="senha" id="csenha" placeholder="Digite sua senha">
+                <input type="password" name="senha" id="csenha" placeholder="Digite sua senha" required>
+                <a href=""></a>
             </div><br>
-            <input class="c"  type="submit" value="Acessar">
+            <button class="c" type="submit">Acessar</button>
         </form><br>
-        <button class="but1" type="button">Acessar sua conta</button>
+        <button class="but1" type="submit">Esqueceu a senha?</button>
         </section>
     </main>
 </body>
