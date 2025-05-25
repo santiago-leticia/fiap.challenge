@@ -18,8 +18,6 @@ function chekInputSenha(){
     const senhacerta= senha.ariaValueMax;
     if(senhacerta === ''){
         errorInput(password, "Preencha a senha")
-    }else if (senha<8){
-        errorInput(password, "A senha precisa de 8 caracteres")
     }else{
         const formItem = password.parentElement;
         formItem.className
