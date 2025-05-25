@@ -17,8 +17,8 @@ Javascript:
 uso do dom
 
 Integrantes:
-Leticia Santiago e Silva RM565799
-Liaba Lyumi Morisita Fujisima RM565698
+Leticia Santiago e Silva RM565799,
+Liaba Lyumi Morisita Fujisima RM565698 e
 Victor William Hwan Cho RM565282
 
 Endereço repositório do projeto no GITHUB;
